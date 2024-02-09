@@ -3,50 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Pricing Table</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  Our Pricing
+  <main>
+<div class="title">
+  <h1>Our Pricing</h1>
   Annually
+  <button>Toggle</button>
   Monthly
-
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
-
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
-
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
+</div>
+<div class="maincontainer">
+  <div class="table">
+  <ul>Basic</ul>
+  <li class="liprice"></li>
+  <li class="liprice">&dollar;199.99</li>
+  <li>500 GB Storage</li>
+  <li>2 Users Allowed</li>
+  <li>Send up to 3 GB</li>
+  <button class="buttontable">Learn More</button>
+</div><div class="table middle">
+  <ul>Professional</ul><li></li>
+  <li class="liprice"></li>
+  <li class="liprice">&dollar;249.99</li>
+  <li>1 TB Storage</li>
+  <li>5 Users Allowed</li>
+  <li>Send up to 10 GB</li>
+  <button class="buttontablemiddle">Learn More</button>
+</div><div class="table">
+  <ul>Master</ul>
+  <li class="liprice"></li>
+  <li class="liprice">&dollar;399.99</li>
+  <li>2 TB Storage</li>
+  <li>10 Users Allowed</li>
+  <li>Send up to 20 GB</li>
+  <button class="buttontable">Learn More</button>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+</div></div>
+  </main>
+  <script src="index.js"></script>
 </body>
 </html>
