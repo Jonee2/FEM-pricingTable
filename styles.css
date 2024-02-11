@@ -67,7 +67,7 @@ ul li{
     padding-bottom: 20px;
     position: absolute;
     height: 390px;
-    box-shadow: 4.0px 4.0px 8.0px hsl(232, 13%, 33%);
+    box-shadow: 1.0px 1.0px 7.0px hsl(232, 13%, 33%);
 }
 .right{
     margin-right: 250px;
@@ -101,12 +101,11 @@ ul li{
 background-color:hsl(236, 72%, 79%);
     color: white;
 }
-input[type=checkbox]{
-    height: 0;
-    width: 0;
-    visibility: hidden;
 
+input[type=checkbox]{
+    /* display: none; */
 }
+
 label{
     cursor: pointer;
     text-indent: -9999px;
@@ -140,6 +139,7 @@ input:checked + label:after {
 label:active:after {
     width: 70px;
 }
+
 .linebot{
    position: absolute;
    left: -620px;
